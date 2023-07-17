@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+    /* */
+}
+/* start top-navbar */
+.top-navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #a9a9a926;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.top-icons{
+    margin-left: 45px;
+}   
+.top-icons i,.other-links i{
+    font-size: 20px;
+    color: #1c1c50;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.other-links{
+    margin-right: 45px;
+
+}
+.btn-login , .btn-signup {
+    background-color: #1c1c50;
+    color: #fff !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+.btn-login a ,.btn-signup a{
+    color: #fff !important; 
+}
+  
+  .btn-login:hover, .btn-signup:hover{
+    background-color: #0062cc;
+  }
+  .top-icons i:hover,.other-links i:hover {
+    color: #0062cc;
+    transition: 0.5s ease;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .top-navbar{
+    display: flex;
+    }
+    .top-icons{
+        margin-left: 30px;
+    }
+    .top-icons i {
+        font-size: 15px;
+    }
+    .other-links{
+        margin-left: 10px;
+    }
+    .other-links i{
+        font-size: 15px;
+    }
+    .btn-login,.btn-signup{
+        padding: 0;
+        width:50px;
+        height: 4vh;
+        font-size:13px ;
+    }
+  }
+
+/* end top-navbar */
+#navbar{
+    background-color: #1c1c50;
+    color: white !important;
+}
+.navbar-brand{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-brand h4{
+    font-weight: 600;
+    margin-top: 15px;
+    color: #D7DD9D !important;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dropdown-item:hover{
+    color: #0062cc !important;
+}
+.nav-link{
+    color: white !important;
+    font-weight: 400 !important;
+    margin-left: 20px;
+    font-size: 20px !important;
+}
+.nav-link:hover{
+    color: #0062cc !important;
+    transition: 0.5s ease;
+}
+.nav-link.active{
+    color: #0062cc !important;
+    transition: 0.5s ease;
+}
+#search-bar{
+    margin-right: 30px;
+}
